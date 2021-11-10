@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TD Bank assignment by Deepika for QA role">
+	
+	 <test name="TD Bank assignment by Deepika"
+		preserve-order="true">
+		<parameter name="browserName" value="Edge" />
+		
+		<groups>
+			<run>
+				<include name="tests" />
+			</run>
+		</groups>
+		<classes>
+		  	<class name="com.td.bank.testcases.AmazonWebAutomationTest"/> 
+		</classes>
+	
+	</test> 
+	
+	 
+	
+</suite>
