@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TD Bank assignment by Deepika for QA role]">
+  <test thread-count="5" name="TD Bank assignment by Deepika(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <groups>
+      <run>
+        <include name="tests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.td.bank.testcases.AmazonWebAutomationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="amazonTest"/>
+        </methods>
+      </class> <!-- com.td.bank.testcases.AmazonWebAutomationTest -->
+    </classes>
+  </test> <!-- TD Bank assignment by Deepika(failed) -->
+</suite> <!-- Failed suite [TD Bank assignment by Deepika for QA role] -->
